@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    .form-container {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+        width: 400px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: white;
+        position: relative;
+    }
+    
+    .form-container input {
+        width: 100%;
+        margin-bottom: 15px;
+        height: 25px;
+        border: 1px solid black;
+    }
+    
+    .user-title p {
+        display: inline-block;
+    }
+    
+    .form-container .title {
+        position: relative;
+        height: 25px;
+    }
+    
+    .form-container .content {
+        position: absolute;
+        text-align: left;
+        left: 0;
+    }
+    
+    .form-container .sub-content {
+        text-align: right;
+        color: #b78a28;
+        position: absolute;
+        right: 0;
+    }
+    
+    .form-title {
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    
+    }
+    
+    .btn-login {
+        text-align: center;
+        border: 1px solid orange;
+        background-color: #b78a28;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .btn-login a {
+        line-height: 40px;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .form-container .title {
+        border: none;
+    }
+    
+    #form-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgba(6, 6, 6, 0.731);
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .ti-close {
+        font-size: 15px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
